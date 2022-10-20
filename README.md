@@ -1,44 +1,44 @@
-# brincando-com-as-cores
-brincando com as cores
-
-<!DOCTYPE <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html Lang="pt-br">
     <head>
-        <title>projetosportofilio</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="projetosportofilio.css" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-wdidth, initial-scale=1.0">
+        <link href="index.css" rel="stylesheet">
+        <title>projetosportofolio</title>
     </head>
     <body>
-        <header>
-            <nav class="nav-bar">
-                <img src="./van.jpg">
-
-                <div class="nav-list">
-                    <ul>
-                        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-                    </ul>
-                </div>
-                </header>
-                <main>
-                <div class="Inicio">
-                    <h1>Vanessa Oliveira</h1>
-                    <h2>Front end developer</h2>
-                    <button class="btn1">Linkedin</button>
-                    <button class="btn2">Github</button>
-                </div>
-                </main>
-                <section>
-                        <h3>Sobre</h3>
-                        <p> Prazer eu sou Vanessa Amaral Oliveira, Me esforço constantemente para aprimorar as minhas técnicas, 
-            descobrir novas ferramentas e encontrar novas oportunidades desenvolver um pouco mais.</p>
-            <p>Habilidades primeira habilidade sendo criada Javascript/CSS</p>
-            <footer>
-                <h4>Criado por Vanessa Oliveira</h4>
-                    </a>
-                </footer>
-            </nav>
-    </body>
-</html>
+       
+        <header class="cabecalho">
+          <div class="Cabecalho">Blog da Van</div>
+          <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item">Home</a>
+            <a class="cabecalho-menu-item">Contatos</a>
+            <a class="cabecalho-menu-item">Sobre</a>
+          </nav>
+        </header>
+      
+        <main class="conteudo">
+          <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+              <h1 class="conteudo-principal-escrito-titulo">Vanessa Oliveira</h1>
+              <h2 class="conteudo-principal-escrito-subtitulo">Front-End Developer</h2>
+              <button class="conteudo-principal-escrito-botao">Me adicione!</button>
+              <button class="conteudo-principal-escrito-botao">Linkedin</button>
+              <button class="conteudo-principal-escrito-botao">GitHUB </button>
+            </div>
+        </section>
+      
+          <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Como possso te ajudar Hoje?</h3>
+            <p class="conteudo-secundario-paragrafo">1. Criar um <strong>portofolio</strong> 
+            <p class="conteudo-secundario-paragrafo">2. Possui um <strong>blog</strong> 
+            <p class="conteudo-secundario-paragrafo">3. Criação <strong>Sites</p>
+          </section>
+           
+        </main>
+        <footer>Vanessa Oliveira</footer>
+        </footer>
+      </body>
+      
+      </html>
